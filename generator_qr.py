@@ -12,6 +12,6 @@ def generate_qr(url):
     img = qr.make_image(fill_color='black', back_color='white')
     return img
 
-url = "http://chess-results.com/tnr719137.aspx?lan=2&art=2&rd=1&turdet=YES&flag=30&fbclid=IwAR2O8No7OB9_eFq12xEtuExUft9N-si4mnpMAH-Nv7bZgKtzCr86DdYvJ60"
+url = "https://lichess.org/swiss/o42POW4c"
 img = generate_qr(url)
-img.save("chess.png")
+img.save("torneo.png")
