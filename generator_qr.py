@@ -12,6 +12,6 @@ def generate_qr(url):
     img = qr.make_image(fill_color='black', back_color='white')
     return img
 
-url = "https://lichess.org/swiss/o42POW4c"
+url = "https://logomakr.com/app/1feiC1#"
 img = generate_qr(url)
 img.save("torneo.png")
