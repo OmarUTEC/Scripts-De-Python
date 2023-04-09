@@ -1,10 +1,12 @@
-class Cat:
-    def __init__(self, name):
-        self.name = name
-    def __str__(self):
-        return "我是小猫[%s]" % self.name
-    def __del__(self):
-        print("%s 我去了..." % self.name)
 
-tom = Cat("Tom")
-print(tom)
+# clases en python
+
+class dog:
+
+def __init__(self, name, age):
+
+self.name = name
+
+self.age = age
+
+def sit(self):
